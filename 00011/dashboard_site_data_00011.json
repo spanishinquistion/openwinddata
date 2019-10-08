@@ -1,0 +1,55 @@
+var site_data = {} 
+site_data.site = "Donaueschingen (Landeplatz)";
+site_data.land = "Baden-Württemberg";
+site_data.c_p = "4.93";
+site_data.v_ave = "2.44";
+site_data.years = "29.3";
+site_data.years10min = "26.1";
+site_data.last = "2019-10-07";
+site_data.prevailing_wind_dir = "S";
+site_data.lat = "47.95";
+site_data.lon = "8.4667";
+site_data.data_quality = "100.0";
+
+var h_m = [{ 
+"id" :1,
+"y1" : "09/1980",
+"y2" : "11/1987",
+"h_m" : "10",
+},{ 
+"id" :2,
+"y1" : "12/1987",
+"y2" : "12/2004",
+"h_m" : "10",
+},{ 
+"id" :3,
+"y1" : "01/2005",
+"y2" : "12/2018",
+"h_m" : "10",
+},{ 
+"id" :4,
+"y1" : "12/2018",
+"y2" : "03/2019",
+"h_m" : "10",
+}] 
+
+
+var cp = [{ 
+"id" :1,
+"turbine" : "S",
+"rating" : "10",
+"cp" : "2.86",
+"AEP" : "2505",
+},{ 
+"id" :2,
+"turbine" : "M",
+"rating" : "1500",
+"cp" : "4.37",
+"AEP" : "574684",
+},{ 
+"id" :3,
+"turbine" : "L",
+"rating" : "3460",
+"cp" : "4.93",
+"AEP" : "1493348",
+}] 

@@ -1,0 +1,40 @@
+var site_data = {} 
+site_data.site = "Albstadt-Onstmettingen";
+site_data.land = "Baden-Württemberg";
+site_data.c_p = "5.67";
+site_data.v_ave = "2.04";
+site_data.years = "16.2";
+site_data.years10min = "0";
+site_data.last = "1995-05-31";
+site_data.prevailing_wind_dir = "N";
+site_data.lat = "48.2766";
+site_data.lon = "9.0001";
+site_data.data_quality = "100.0";
+
+var h_m = [{ 
+"id" :1,
+"y1" : "09/1978",
+"y2" : "05/1995",
+"h_m" : "17",
+}] 
+
+
+var cp = [{ 
+"id" :1,
+"turbine" : "S",
+"rating" : "10",
+"cp" : "3.98",
+"AEP" : "3484",
+},{ 
+"id" :2,
+"turbine" : "M",
+"rating" : "1500",
+"cp" : "5.19",
+"AEP" : "682350",
+},{ 
+"id" :3,
+"turbine" : "L",
+"rating" : "3460",
+"cp" : "5.67",
+"AEP" : "1717844",
+}] 
