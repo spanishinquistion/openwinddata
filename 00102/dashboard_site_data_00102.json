@@ -1,0 +1,55 @@
+var site_data = {} 
+site_data.site = "Leuchtturm Alte Weser";
+site_data.land = "Niedersachsen";
+site_data.c_p = "42.39";
+site_data.v_ave = "8.83";
+site_data.years = "13.6";
+site_data.years10min = "0";
+site_data.last = "2019-10-07";
+site_data.prevailing_wind_dir = "SW";
+site_data.lat = "53.8633";
+site_data.lon = "8.1275";
+site_data.data_quality = "98.9";
+
+var h_m = [{ 
+"id" :1,
+"y1" : "04/2001",
+"y2" : "04/2007",
+"h_m" : "42.6",
+},{ 
+"id" :2,
+"y1" : "04/2007",
+"y2" : "11/2010",
+"h_m" : "41",
+},{ 
+"id" :3,
+"y1" : "03/2011",
+"y2" : "12/2011",
+"h_m" : "41",
+},{ 
+"id" :4,
+"y1" : "10/2014",
+"y2" : "03/2019",
+"h_m" : "41",
+}] 
+
+
+var cp = [{ 
+"id" :1,
+"turbine" : "S",
+"rating" : "10",
+"cp" : "30.02",
+"AEP" : "26299",
+},{ 
+"id" :2,
+"turbine" : "M",
+"rating" : "1500",
+"cp" : "38.69",
+"AEP" : "5083253",
+},{ 
+"id" :3,
+"turbine" : "L",
+"rating" : "3460",
+"cp" : "42.39",
+"AEP" : "12849279",
+}] 
