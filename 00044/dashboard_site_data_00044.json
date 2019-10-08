@@ -1,0 +1,50 @@
+var site_data = {} 
+site_data.site = "Großenkneten";
+site_data.land = "Niedersachsen";
+site_data.c_p = "13.29";
+site_data.v_ave = "3.97";
+site_data.years = "26.9";
+site_data.years10min = "0";
+site_data.last = "1995-11-30";
+site_data.prevailing_wind_dir = "W";
+site_data.lat = "52.8846";
+site_data.lon = "8.2308";
+site_data.data_quality = "100.0";
+
+var h_m = [{ 
+"id" :1,
+"y1" : "03/1971",
+"y2" : "12/1988",
+"h_m" : "10",
+},{ 
+"id" :2,
+"y1" : "01/1989",
+"y2" : "06/1993",
+"h_m" : "10",
+},{ 
+"id" :3,
+"y1" : "07/1993",
+"y2" : "11/1995",
+"h_m" : "10",
+}] 
+
+
+var cp = [{ 
+"id" :1,
+"turbine" : "S",
+"rating" : "10",
+"cp" : "7.98",
+"AEP" : "6988",
+},{ 
+"id" :2,
+"turbine" : "M",
+"rating" : "1500",
+"cp" : "11.64",
+"AEP" : "1529393",
+},{ 
+"id" :3,
+"turbine" : "L",
+"rating" : "3460",
+"cp" : "13.29",
+"AEP" : "4027660",
+}] 
