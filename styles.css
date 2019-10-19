@@ -103,6 +103,7 @@ a:active {
 h1 {
   font-weight: 800;
   font-size: 2em;
+  line-height: 1em;
   color: #2E4052;
 }
 
@@ -636,7 +637,7 @@ margin: 0 0
 
 .cell h1 {
   letter-spacing: 300%;
-  font-size: 35px;
+  font-size: 28px;
   margin: .2em 0 0em 0;
 }
 
@@ -786,12 +787,12 @@ font-weight: 400;
   grid-row: 1 / 2 ;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 100px 200px; /*clean up*/
+  grid-template-rows: 140px 200px; /*clean up*/
   padding-bottom: 1em;
 }
 
 .cell_header_new div:nth-child(1) {
-  grid-column: 1 / 1;
+  grid-column: 1 / 3;
   grid-row: 1 / 2 ;
 }
 
@@ -814,7 +815,7 @@ font-weight: 400;
 
 
 .site_name {
-  grid-column: 1 / 2;
+  grid-column: 1 / 3;
   grid-row: 1 / 2;
 }
 
