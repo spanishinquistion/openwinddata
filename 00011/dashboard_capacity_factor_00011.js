@@ -1,5 +1,5 @@
 var chart_name = 'capacity_factor'
-var cp  = [5.,8.,9.] 
+var cp  = [3.,4.,5.] 
 var color_1 = 'black' 
 var color_2 = 'limeGreen' 
 var color_3 = 'Red' 
