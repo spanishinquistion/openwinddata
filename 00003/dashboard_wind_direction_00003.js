@@ -8,7 +8,7 @@ var font_1 = '18px sans-serif'
 var font_2 = '18px sans-serif' 
 var wind_dir = ['6.0', '5.0', '4.0', '4.0', '5.0', '2.0', '2.0', '2.0', '9.0', '13.0', '16.0', '11.0', '10.0', '3.0', '3.0', '3.0'] 
 var wind_dir = [wind_dir[0],wind_dir[1],wind_dir[2],wind_dir[3],wind_dir[4],wind_dir[5],wind_dir[6],wind_dir[7],wind_dir[8],wind_dir[9],wind_dir[10],wind_dir[11],wind_dir[12],wind_dir[13],wind_dir[14],wind_dir[15]];
-var max_percent_plot = 17 
+var max_percent_plot = 16.21248531707209 
 // Data above, Template Below
 var strokeStylecolor = 'rgba(0,0,0,0.2)'
 var windRosecolor = 'rgba(100, 149, 237, 1)';
