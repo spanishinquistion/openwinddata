@@ -5,7 +5,7 @@ site_data.c_p = "9.16";
 site_data.v_ave = "3.33";
 site_data.years = "27.1";
 site_data.years10min = "27.1";
-site_data.last = "2019-10-07";
+site_data.last = "2019-10-23";
 site_data.prevailing_wind_dir = "WSW";
 site_data.lat = "50.7557";
 site_data.lon = "9.2583";
@@ -29,17 +29,17 @@ var cp = [{
 "turbine" : "S",
 "rating" : "10",
 "cp" : "5.39",
-"AEP" : "4721",
+"AEP" : "4,721",
 },{ 
 "id" :2,
 "turbine" : "M",
-"rating" : "1500",
+"rating" : "1,500",
 "cp" : "8.04",
-"AEP" : "1055828",
+"AEP" : "1,055,828",
 },{ 
 "id" :3,
 "turbine" : "L",
-"rating" : "3460",
+"rating" : "3,460",
 "cp" : "9.16",
-"AEP" : "2777663",
+"AEP" : "2,777,663",
 }] 
