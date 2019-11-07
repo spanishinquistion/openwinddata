@@ -21,7 +21,7 @@
   </body>
   <script>
     var myList = document.querySelector('ul');
-    fetch('https://github.com/mdn/fetch-examples/blob/master/fetch-json/products.json')
+    fetch('data.json')
     .then(function(response) {
       if (!response.ok) {
         throw new Error("HTTP error, status = " + response.status);
