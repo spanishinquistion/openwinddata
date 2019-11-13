@@ -25,7 +25,7 @@
    <a href="../index.html">FirstWind</a>
        <a href="../about.html">About</a>
     <a href="../wind_map.html">Wind Site Map</a>
-    <!--<a class="active" href="dashboard_00003.html">Example Dashboard</a>-->
+    <a class="active" href="hi_res_dashboard_00003.html">Higher Resolution Example</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -83,13 +83,13 @@
 
 <div class="cell cell_wind_direction">
     <h3 class=tooltip> Prevailing Wind Direction: <script>document.write(site_data.prevailing_wind_dir);</script><span class="tooltiptext">A preliminary analysis of the wind direction are provided along with the prevailing wind direction.<a href="about.html#wind_direction" target="">More</a></span></h3> 
-    <canvas id="wind_direction" width="500" height="500"></canvas>
+    <canvas id="wind_rose" width="500" height="500"></canvas>
     <script type="text/javascript" src="dashboard_wind_direction_00003.js"></script>  
 </div>
 
 <div class="cell cell_capacity">
     <h3 class="tooltip">Capacity Factor<span class="tooltiptext">Estimated percent of possible energy a turbine could produce in a year at the site. Equivalent full time operation.<a href="about.html#capacity_factor">More</a></span></h3>
-         <canvas id="capacity_factor"></canvas> 
+         <canvas id="capacity_factor"width="500" height="500">></canvas> 
     <script type="text/javascript" src="dashboard_capacity_factor_00003.js"></script>  
 </div>
 
